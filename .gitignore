@@ -1,0 +1,8 @@
+# Binaries
+*.exe
+*.EXE
+
+# Error logs
+*.err
+*.ERR
+

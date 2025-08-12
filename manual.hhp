@@ -1,0 +1,20 @@
+[OPTIONS]
+Compiled file=OpenEuphoria.chm
+Contents file=manual.hhc
+Index file=manual.hhk
+Default topic=html/index.html
+Default Window=Main
+Title=OpenEuphoria Manual
+Compatibility=1.1 or later
+Full-text search=Yes
+Binary TOC=No
+Language=0x409 English (United States)
+
+[WINDOWS]
+Main="OpenEuphoria Manual","manual.hhc","manual.hhk","html/index.html","html/index.html",,,,,0x520,,0x00304e,,,,,,1,,0
+
+[FILES]
+manual.hhp
+html/*.html
+html/images/*.*
+html/js/*.*
