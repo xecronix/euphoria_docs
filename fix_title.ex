@@ -1,4 +1,4 @@
-
+-- Quick and dirty Phix program written to change titles for Euphoria HTML docs.
 
 integer file_count = 0
 integer title_replacements = 0
@@ -22,7 +22,6 @@ function read_text_file(sequence path)
     close(fn)
     return join(content,"")
 end function
-
 
 procedure fix_title(sequence s)
     sequence filename = sprintf("html/%s", {s})
